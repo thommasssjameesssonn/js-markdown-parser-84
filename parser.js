@@ -1,0 +1,1 @@
+exports.toHtml = (md) => md.replace(/^# (.*$)/gim, '<h1>$1</h1>');
